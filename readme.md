@@ -32,14 +32,12 @@ Create a new project in IntelliJ for this lab
 - Create the following methods that accept no input:
 `isRed`, `isYellow`, `isGreen`.
 - Implement the methods to return true when the lightColor matches the color of the method. i.e; isRed() should return true if lightColor is red.
-- Implement `go`, `slow`, and `stop` methods that print something out. (You can print whatever is appropriate for the methods)
 - Create a method `setLightColor`, that accepts a parameter to change the lightColor variable. Make sure to handle when the wrong input is given to the method.
 
 ##### Car Class
 - Create a Car class with the following global variables: color, brand, topSpeed
 - Create a constructor that assigns values to the color, brand, and topSpeed variables.
-- Create the following methods:
-go(), slow(), stop(); Have each method print out what it should be doing. (Be creative)
+- Implement `go`, `slow`, and `stop` methods that print something out. (You can print whatever is appropriate for the methods)
 - Create individual getter methods that print out the color, brand, and topSpeed of the car.
 - Create individual setter methods that set the color, brand, and topSpeed of the car.
 
@@ -58,7 +56,5 @@ go(), slow(), stop(); Have each method print out what it should be doing. (Be cr
 Pull request from forked Project on GitHub that contains your implementation of the `StopLight` class, the `Car` class, and the main program that uses the classes you created.
 
 ## Additional Resources
-
-- [TextViews](http://developer.android.com/reference/android/widget/TextView.html)
 - Oracle: [Defining a class](https://docs.oracle.com/javase/tutorial/java/javaOO/classes.html)
 - Oracle: [Instantiating a class](https://docs.oracle.com/javase/tutorial/java/javaOO/objects.html)
