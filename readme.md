@@ -16,6 +16,11 @@ creator:
 
 In this lab you will be using your knowledge of classes to create two classes that will be used in the main method. To calculate
 
+#### Starter code
+
+There is no starter code.
+Create a new project in IntelliJ for this lab
+
 ## Exercise
 
 #### Requirements
@@ -41,19 +46,12 @@ go(), slow(), stop(); Have each method print out what it should be doing. (Be cr
 ##### Main Java Class
 - Instantiate a `StopLight` object in the Main.java class using the constructor you created in the `StopLight` class.
 - Instantiate a `Car` object in the *Main.java* class using the constructor you created in the `Car` class.
-
 - In the Main.java class, create a loop(while, do while, for loop; your choice) that runs 30 times.
 - Inside the loop; change the lightColor of the `StopLight` object in the correct sequence and have the `Car` object react accordingly to the `StopLight` lightColor using the `Car` object's methods for each iteration. (Each time you loop back, change the lightColor)
--
 
 **Bonus:**
 - Have 20 cars react to the stop light.
 - Randomly have a car run the red light.
-
-#### Starter code
-
-There is no starter code.
-Create a new project in IntelliJ for this lab
 
 #### Deliverable
 
